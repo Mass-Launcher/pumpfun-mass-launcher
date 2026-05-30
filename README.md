@@ -63,12 +63,12 @@ Volume discount kicks in after launch 10. Price slides linearly down to 0.015 SO
 | Approach | Setup | Speed | Wallet | Best for |
 |---|---|---|---|---|
 | **pump.fun (manual)** | Install Phantom, fund wallet | One coin at a time, ~10s each | Required (Phantom/Solflare) | Single-coin launches |
-| **Roll your own script** | Hours to days writing it | Fast if coded right | Required + funding pool you maintain | Engineers with infra |
+| **Uxento** | Sign in, fund integrated wallet | One at a time | Built-in (no browser ext.) | Sniping / trading |
 | **[MassLauncher](https://masslauncher.fun)** | Sign in (Telegram/Google/Email) | 25 coins in <5s | **None — auto-generated** | Anyone running a campaign |
 
 Time-to-first-launch comparison:
 - pump.fun directly: ~5 minutes (wallet setup + funding)
-- DIY script: hours/days (write, test, host)
+- Uxento: ~2 minutes (sign in + fund integrated wallet)
 - MassLauncher: ~30 seconds (sign in, deposit, fire)
 
 ---
