@@ -11,11 +11,11 @@
 ## 📺 Demo
 
 <a href="https://masslauncher.fun/demo.mp4">
-  <img src="https://masslauncher.fun/demo-poster.jpg" alt="Watch MassLauncher mass-launching coins on pump.fun" width="100%" />
+  <img src="https://masslauncher.fun/demo.webp" alt="MassLauncher mass-launching coins on pump.fun" width="100%" />
 </a>
 
 <p align="center">
-  <a href="https://masslauncher.fun/demo.mp4"><b>▶ Watch the live demo</b></a>
+  <a href="https://masslauncher.fun/demo.mp4"><b>▶ Watch in HD</b></a>
 </p>
 
 ---
@@ -60,11 +60,11 @@ Volume discount kicks in after launch 10. Price slides linearly down to 0.015 SO
 
 ## Why use a hosted mass launcher?
 
-| Approach | Setup | Speed | Wallet | Best for |
-|---|---|---|---|---|
-| **pump.fun (manual)** | Install Phantom, fund wallet | One coin at a time, ~10s each | Required (Phantom/Solflare) | Single-coin launches |
-| **Uxento** | Sign in, fund integrated wallet | One at a time | Built-in (no browser ext.) | Sniping / trading |
-| **[MassLauncher](https://masslauncher.fun)** | Sign in (Telegram/Google/Email) | 25 coins in <5s | **None — auto-generated** | Anyone running a campaign |
+| Approach | Setup | Speed | Best for |
+|---|---|---|---|
+| **pump.fun (manual)** | Install Phantom, fund wallet | One coin at a time, ~10s each | Single-coin launches |
+| **Uxento** | Sign in, fund integrated wallet | One at a time | Sniping / trading |
+| **[MassLauncher](https://masslauncher.fun)** | Sign in (Telegram/Google/Email) | 25 coins in <5s | Anyone running a campaign |
 
 Time-to-first-launch comparison:
 - pump.fun directly: ~5 minutes (wallet setup + funding)
