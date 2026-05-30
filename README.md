@@ -8,6 +8,18 @@
 
 ---
 
+## 📺 Demo
+
+<a href="https://masslauncher.fun/demo.mp4">
+  <img src="https://masslauncher.fun/demo-poster.jpg" alt="Watch MassLauncher mass-launching coins on pump.fun" width="100%" />
+</a>
+
+<p align="center">
+  <a href="https://masslauncher.fun/demo.mp4"><b>▶ Watch the live demo</b></a>
+</p>
+
+---
+
 ## What is a pump.fun mass launcher?
 
 A **pump.fun mass launcher** fires many meme coin launches on [pump.fun](https://pump.fun) in rapid succession. Every coin you launch hits pump.fun's new-pairs feed, so launching 25–100 coins at once **floods that feed** with your project's tokens.
@@ -45,6 +57,21 @@ Speed comes from a pre-funded wallet pool — no waiting for fresh wallets to ge
 Volume discount kicks in after launch 10. Price slides linearly down to 0.015 SOL at 100 launches.
 
 📖 Full pricing: [`docs/pricing.md`](docs/pricing.md)
+
+## Why use a hosted mass launcher?
+
+| Approach | Setup | Speed | Wallet | Best for |
+|---|---|---|---|---|
+| **pump.fun (manual)** | Install Phantom, fund wallet | One coin at a time, ~10s each | Required (Phantom/Solflare) | Single-coin launches |
+| **Roll your own script** | Hours to days writing it | Fast if coded right | Required + funding pool you maintain | Engineers with infra |
+| **[MassLauncher](https://masslauncher.fun)** | Sign in (Telegram/Google/Email) | 25 coins in <5s | **None — auto-generated** | Anyone running a campaign |
+
+Time-to-first-launch comparison:
+- pump.fun directly: ~5 minutes (wallet setup + funding)
+- DIY script: hours/days (write, test, host)
+- MassLauncher: ~30 seconds (sign in, deposit, fire)
+
+---
 
 ## Getting started
 
