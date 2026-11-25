@@ -1,49 +1,16 @@
-# pump.fun mass launcher — pricing
+# Reading a Pump.fun launch-credit quote
 
-Pay-per-launch. No subscriptions. Volume discounts applied automatically.
+The quantity in **Buy Credits** and the quantity in **Launch** mean different things. The first determines the standard price for the credits you are purchasing. The second spends credits you already own.
 
-## Per-launch pricing
+| Buying this many standard credits together | Rate per credit | Total before extras |
+| ---: | ---: | ---: |
+| 5 | 0.020 SOL | 0.100 SOL |
+| 25 | 0.019 SOL | 0.475 SOL |
+| 50 | 0.018 SOL | 0.900 SOL |
+| 100 | 0.015 SOL | 1.500 SOL |
 
-| Launch # | Per-launch (SOL) |
-|---|---|
-| 1–10 | 0.0200 |
-| 25 | 0.01925 |
-| 50 | 0.0180 |
-| 75 | 0.01675 |
-| 100+ | 0.0150 (floor) |
+For example, buy 25 credits and use three for a standard batch. If all three launches confirm, 22 of those credits remain. You don’t have to submit the other 22 that day or put them in the same order.
 
-The per-launch price slides linearly from 0.02 SOL at launch 10 to 0.015 SOL at launch 100. After 100, you stay at the floor rate.
+The standard price changes at purchase sizes of 11, 26, 51 and 76 credits. Check the [live calculator](https://masslauncher.fun/#pricing), especially near a break. An account-specific rate, promotion or buyer option can change what you actually pay. Follow the quote before sending SOL. If your screen offers payment in a token, use only the exact mint it shows; a matching ticker is not enough.
 
-## Example totals
-
-| Launches | Total cost | Per-coin cost |
-|---|---|---|
-| 5 | 0.10 SOL | 0.020 SOL |
-| 25 | ~0.47 SOL | ~0.019 SOL |
-| 50 | ~0.88 SOL | ~0.018 SOL |
-| 100 | 1.625 SOL | ~0.016 SOL |
-| 200 | 3.125 SOL | ~0.016 SOL |
-
-## What the fee covers
-
-Every per-launch fee includes:
-
-- Pre-funded wallet for the launch (rent + pump.fun bonding-curve seed)
-- Solana RPC fees + tuned priority fee
-- pump.fun `create_coin` transaction submission
-- Metadata + image upload to pump.fun's IPFS
-- Confirmation polling and pump.fun link delivery
-
-No hidden fees, no metadata-upload surcharges, no priority fee markups.
-
-## Refunds
-
-Failed launches → automatic credit refund. Check **History** in the dashboard.
-
-## Withdrawals
-
-Unused credits convert back to SOL at the current per-launch floor rate and can be withdrawn to any Solana address. No KYC.
-
----
-
-🌐 Start launching: **[masslauncher.fun](https://masslauncher.fun)**
+Credits pay for a service. They are not a redeemable SOL balance. A definitively failed launch returns its launch credit; a pending credit is still reserved. See the [payment terms](https://masslauncher.fun/terms) and the [full credit and Pump.fun fee comparison](https://masslauncher.fun/blog/pump-fun-vs-masslauncher-launch-costs).

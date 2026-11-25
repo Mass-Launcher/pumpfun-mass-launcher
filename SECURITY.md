@@ -4,7 +4,7 @@ MassLauncher is a closed-source hosted service. To report a security
 vulnerability, contact us privately:
 
 - **Twitter DM**: [@masslauncher](https://x.com/masslauncher)
-- **Telegram**: send `/contact` to [@MassLauncherBot](https://t.me/MassLauncherBot)
+- **Telegram**: open [@MassLauncherBot](https://t.me/MassLauncherBot) and use its support link. Never send a seed phrase, wallet private key or API key.
 
 We respond within 48 hours.
 
