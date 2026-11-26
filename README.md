@@ -4,7 +4,9 @@ Want five separate Solana tokens from one set of artwork and links? Save a profi
 
 ### [Open MassLauncher →](https://masslauncher.fun/?utm_source=github&utm_medium=referral&utm_campaign=masslauncher_api&utm_content=quickstart) · [Use Telegram →](https://t.me/MassLauncherBot?start=src_github_quickstart)
 
-**Try the API without paying:** [Get your API key](https://masslauncher.fun/app/api-keys?utm_source=github&utm_medium=referral&utm_campaign=masslauncher_api&utm_content=quickstart) and [open the Postman walkthrough](https://masslauncher.fun/blog/pump-fun-api-postman?utm_source=github&utm_medium=referral&utm_campaign=masslauncher_api&utm_content=quickstart). The [downloadable collection](examples/masslauncher-readonly.postman_collection.json) only reads your balance, saved profiles and recent jobs. No deposit or launch required.
+**Launch five Pump.fun coins through the API:** Send your saved profile’s index and `quantity: 5` to `POST /api/v1/launches`. That’s one API request, not one blockchain transaction. The response gives you a job ID to check the outcome of each coin. [Read the batch launch API guide](https://masslauncher.fun/blog/pump-fun-launch-api) · [Get an API key](https://masslauncher.fun/app/api-keys?utm_source=github&utm_medium=referral&utm_campaign=masslauncher_api&utm_content=quickstart).
+
+Want to check your key before spending credits? [Open the Postman walkthrough](https://masslauncher.fun/blog/pump-fun-api-postman?utm_source=github&utm_medium=referral&utm_campaign=masslauncher_api&utm_content=quickstart) or [download the collection](examples/masslauncher-readonly.postman_collection.json). Its three requests only read account data; none submits a launch.
 
 [![Preview of the read-only Pump.fun API walkthrough: setup, the three responses, and a mixed job result.](images/api-walkthrough.gif)](https://masslauncher.fun/blog/pump-fun-api-postman?utm_source=github&utm_medium=referral&utm_campaign=masslauncher_api&utm_content=quickstart)
 
