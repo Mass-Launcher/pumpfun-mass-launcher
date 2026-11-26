@@ -1,8 +1,14 @@
-# How to mass launch coins on Pump.fun with MassLauncher
+# How to mass launch on Pump.fun: web, Telegram or API
 
-Want five separate Solana tokens from one set of artwork and links? Save a profile, ask for five launches, then keep the mint address from each successful row. If you want five wallets to hold **one** token, that’s a transfer, not five launches.
+Want five separate Solana tokens from one set of artwork and links? Save a profile, request five launches, then keep the mint address from each successful row. If you want five wallets to hold **one** token, that’s a transfer, not five launches.
 
-[Follow the walkthrough](docs/getting-started.md) · [Open the web app](https://masslauncher.fun/) · [Use Telegram](https://t.me/MassLauncherBot)
+### [Open MassLauncher →](https://masslauncher.fun/?utm_source=github&utm_medium=referral&utm_campaign=masslauncher_api&utm_content=quickstart) · [Use Telegram →](https://t.me/MassLauncherBot?start=src_github_quickstart)
+
+**Try the API without paying:** [Get your API key](https://masslauncher.fun/app/api-keys?utm_source=github&utm_medium=referral&utm_campaign=masslauncher_api&utm_content=quickstart) and [open the Postman walkthrough](https://masslauncher.fun/blog/pump-fun-api-postman?utm_source=github&utm_medium=referral&utm_campaign=masslauncher_api&utm_content=quickstart). The [downloadable collection](examples/masslauncher-readonly.postman_collection.json) only reads your balance, saved profiles and recent jobs. No deposit or launch required.
+
+[![Preview of the read-only Pump.fun API walkthrough: setup, the three responses, and a mixed job result.](images/api-walkthrough.gif)](https://masslauncher.fun/blog/pump-fun-api-postman?utm_source=github&utm_medium=referral&utm_campaign=masslauncher_api&utm_content=quickstart)
+
+Using the service by hand? [Follow the first-order walkthrough](docs/getting-started.md). Integrating a backend? [See how to handle pending results and timeouts](https://masslauncher.fun/blog/pump-fun-api-job-results?utm_source=github&utm_medium=referral&utm_campaign=masslauncher_api&utm_content=quickstart) before enabling live requests.
 
 ## Try the price before you sign in
 

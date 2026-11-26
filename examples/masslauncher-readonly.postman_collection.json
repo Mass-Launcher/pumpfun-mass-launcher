@@ -1,0 +1,28 @@
+{
+  "info": {
+    "name": "MassLauncher for Pump.fun — read-only API quickstart",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": "Three account reads. None of these requests submits a launch, spends credits, or moves SOL. In Postman desktop, add your key to your local Vault as masslauncher_api_key and restrict its allowed domain to masslauncher.fun. Do not paste a key in this file or share your responses. [Setup and expected results](https://masslauncher.fun/blog/pump-fun-api-postman?utm_source=postman&utm_medium=referral&utm_campaign=masslauncher_api&utm_content=collection)."
+  },
+  "auth": {
+    "type": "bearer",
+    "bearer": [{"key": "token", "value": "{{vault:masslauncher_api_key}}", "type": "string"}]
+  },
+  "item": [
+    {
+      "name": "1. Read credit balance",
+      "protocolProfileBehavior": {"followRedirects": false},
+      "request": {"method": "GET", "url": "https://masslauncher.fun/api/v1/credits", "description": "A 200 with zero credits is a successful authentication check."}
+    },
+    {
+      "name": "2. List saved coin profiles",
+      "protocolProfileBehavior": {"followRedirects": false},
+      "request": {"method": "GET", "url": "https://masslauncher.fun/api/v1/coins", "description": "Read the coins array. An empty array is valid."}
+    },
+    {
+      "name": "3. List recent launch jobs",
+      "protocolProfileBehavior": {"followRedirects": false},
+      "request": {"method": "GET", "url": "https://masslauncher.fun/api/v1/launches", "description": "Read the jobs array for this account. No job is created by this GET."}
+    }
+  ]
+}
